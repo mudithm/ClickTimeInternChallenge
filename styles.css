@@ -1,0 +1,71 @@
+.last_start {
+    background-color: green;
+}
+
+.last_stop {
+    background-color: red;
+}
+
+.current_block {
+    background-color: grey;
+}
+
+#table-holder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+}
+
+h1 {
+    height: 5vh;
+    min-height: 40px;
+
+    text-align: center;
+}
+
+span {
+    width: 50%;
+    max-width: 500px;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4vh;
+    min-height: 40px;
+    display: flex;
+}
+
+span button {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+tbody {
+    overflow: auto;
+    max-height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+tbody tr {
+    display: flex;
+    -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+tbody tr td {
+    flex: 1;
+}
+
+thead tr {
+    display: flex;
+}
+
+thead tr th {
+    flex: 1;
+}
