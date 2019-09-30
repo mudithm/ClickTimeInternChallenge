@@ -1,19 +1,24 @@
+body {
+    min-width: 280px;
+}
+
 .last_start {
-    background-color: green;
+    background-color: rgba(100, 150, 100, .4);
 }
 
 .last_stop {
-    background-color: red;
+    background-color: rgba(190, 100, 100, .4);
 }
 
 .current_block {
-    background-color: grey;
+    background-color: rgba(100, 100, 100, .4);
 }
 
 #table-holder {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2vh;
 
     width: 90%;
 }
@@ -68,4 +73,15 @@ thead tr {
 
 thead tr th {
     flex: 1;
+}
+
+.btn-primary {
+    background-color: rgba(100, 100, 100, .8) !important;
+    border-color: white !important;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: x-large !important;
+    }
 }
